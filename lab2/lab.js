@@ -1,7 +1,12 @@
 // EXERCISE 1
 // Write a function named squareNumber that will take one argument (a number), square that number, and return the result. Log a string with the result, 
 //for example "The result of squaring the number 3 is 9."
-
+let num1 = 3
+function squareNumber(num){
+    return num*num
+}
+let result = squareNumber(num1)
+console.log(`The result of squaring the number ${num1} is ${result}`)
 
 // EXERCISE 2
 // Write a function named halfNumber that will take one argument (a number), divide it by 2, and return the result. Log a string with the result, for example: "Half of 5 is 2.5.".
