@@ -1,16 +1,23 @@
 // EXERCISE 1
 // Write a function named squareNumber that will take one argument (a number), square that number, and return the result. Log a string with the result, 
 //for example "The result of squaring the number 3 is 9."
-let num1 = 3
-function squareNumber(num){
-    return num*num
+
+const squareNumber = num => {
+    let result= num*num
+    console.log(`The result of squaring the number ${num} is ${result}`)
+    return result
 }
-let result = squareNumber(num1)
-console.log(`The result of squaring the number ${num1} is ${result}`)
+squareNumber(3)
 
 // EXERCISE 2
 // Write a function named halfNumber that will take one argument (a number), divide it by 2, and return the result. Log a string with the result, for example: "Half of 5 is 2.5.".
 
+const halfNumber = num => {
+    let result= num/2
+    console.log(`Half of: ${num} is: ${result}`)
+    return result
+}
+halfNumber(10)
 
 // EXERCISE 3
 // Write a function named percentOf that will take two numbers, figure out what percent the first number represents of the second number, and return the result.
